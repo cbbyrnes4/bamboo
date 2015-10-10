@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+  <head>
+	<title>Secret Diary</title>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="ID=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	  
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" />
+
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css" />
+
+	<link href='http://fonts.googleapis.com/css?family=Pacifico|Bangers' rel='stylesheet' type='text/css' />
+
+	</head>
+
+	<body data-spy="scroll" data-target=".navbar-collapse">
+		<div class="navbar navbar-default navbar-fixed-top">
+			<div class="container">
+		  		<div class="navbar-header pull-left">
+		  			<a class="navbar-brand">Secret Diary</a>
+		  		</div>
+
+		  		<div class="pull-right">
+		  			<ul class="navbar-nav nav">
+		  				<li><a href="./?logout=1">Log Out</a></li>
+		  			</ul>
+		  		</div>
+		  	</div>	
+		</div>
+
+		<div class="container contentContainer" id="topContainer">
+  			<div class="row">
+  				<div class="col-md-6 col-md-offset-3" id="topRow">
+ 					
+ 					<textarea class="form-control"><?php echo $diary ?></textarea>
+
+ 			 	</div>
+			</div>
+  		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  	<!-- Latest compiled and minified JavaScript -->
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+</html>
