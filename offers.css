@@ -1,0 +1,269 @@
+body {
+  padding-top: 50px;
+  padding-right: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #72CB51;
+    color:white;
+  /*width: 100%;*/
+}
+
+#signUpButton {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
+  font-weight: bolder;
+  background-color:#F4BE3A;
+  border: 5px solid white;
+  border-radius: 20px;
+  width: 220px;
+  height: 55px;
+  padding: 0;
+}
+
+#signUpButton a:hover {
+  text-decoration: none;
+  text-shadow: 3px 3px gray;
+
+}
+
+#pcontact  {
+  text-align:left;
+  float: left;
+  font-size: 18px;
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 800px;
+}
+
+.subHead {
+  font-size: 1.4em;
+  font-weight: bolder;
+}
+
+.big {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+
+#pillars {
+  font-size: 18px;
+  color: #889AA8;
+  margin: 0 auto;
+  width: 900px;
+}
+
+#pillars div >p {
+  color: #A6AFB7;
+}
+
+.helpTable {
+  display: table;
+  margin-left: 50px;
+}
+
+.helpRow, .helpRow2{
+  display: table-row;
+}
+
+.helpCell1, .helpCell2, .helpCell3 {
+  padding: 5px 30px;
+  display: table-cell;
+  text-align: left;
+}
+
+.checkbox-inline {
+    font-size: 16px;
+}
+
+#help .col-md-4 {
+  border: 0px white;
+  margin: 0;
+  padding:0;
+}
+
+#invest {
+  height: 600px;
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#invest > p {
+  width:600px;
+  text-align: center;
+  color:#889AA8;
+  padding: 0;
+  margin: 0 auto;
+  font-size: 18px;
+}
+
+.checkbox {
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+#form {
+  color: #FFFFFF;
+  text-align: left;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.select-menu {
+  text-align: left;
+  font-size: 18px;
+}
+
+#logo {
+  padding-top: 50px;
+  height: 250px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+#logo > img {
+  width: 200px;
+  height: auto;
+}
+
+.main {
+  padding: 60px 15px;
+  text-align: center;
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.col-md-4 {
+	text-align: center;
+	/*border: black 1px solid;*/
+	height: 300px;
+	/*background-color: rgba(100,100,100,0.4);*/
+	border-right: #E5E5E5 1px solid;
+  font-family: 'Lato', sans-serif;
+}
+
+.col-md-4:last-child{
+	border: none;
+}
+
+input[type='submit'] {
+	background-color: #F4BE3A ;
+	border-color: #F4BE3A ;
+}
+
+input[type='submit']:hover {
+	background-color: #F4BE3A;
+	border-color: #F4BE3A;
+}
+
+.fluid-container {
+	width: 100%;
+}
+
+
+.row {
+	text-align: center;
+	height: 90vh;
+	padding-top: 30px;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 2em;
+	width: 100%;
+}
+
+/*.big-font {
+	font-size: 3em;
+}*/
+
+.row:nth-child(odd){
+  position: relative;
+  margin: 0 auto;
+	background-color: white;
+	color: #008FE2;
+	width: 100%;
+}
+
+.row:last-child{
+  height: 100%;
+}
+
+
+.navbar {
+	background-color: white;
+}
+
+.navbar {
+	border-bottom: #F4BE3A 2px solid;
+}
+
+#navbar .active a {
+	background-color: #F4BE3A ;
+}
+
+
+.navbar-nav a:hover {
+	-webkit-animation: color_change 1s;
+}
+
+.navbar-toggle {
+	background-color: #F4BE3A;
+	border: #F4BE3A 1px solid;
+}
+
+#navbar li a:hover {
+  color:#F4BE3A;
+}
+
+.navbar-toggle:hover {
+	color: #F4BE3A;
+	border: #F4BE3A 1px solid;
+}
+
+@media(max-width:768px) {
+	.col-md-4 {
+		border: none;
+	}
+}
+
+@media(max-width: 992px) {
+	.col-md-4 {
+		border:none;
+	}
+}
+@media(min-width: 1200px){
+
+}
+@webkit-keyframes color_change {
+	from {background-color: #F4BE3A;}
+	to {background-color: #888;}
+}
+
+.img img {
+  width: 150px;
+}
+.company {
+  padding: 50px 0 ;
+  margin-top: 25px;
+}
+
+#commonbond, #SoFi {
+  color: #008FE2;
+}
+
+.line {
+  border-top: 1px darkgrey;
+  width: 100%;
+}
+
+.rate {
+  font-size: 1.2em;
+}
+
+.loan-data{
+  color:#008FE2;
+}
