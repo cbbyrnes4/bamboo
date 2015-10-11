@@ -7,10 +7,36 @@ body {
   /*width: 100%;*/
 }
 
-/*{
-    padding-top: 50px;
-    margin-top: -50px;
-}*/
+#signUpButton {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+  text-align: center;
+  vertical-align: middle;
+  color: #FFFFFF;
+  font-weight: bolder;
+  background-color:#F4BE3A;
+  border: 5px solid white;
+  border-radius: 20px;
+  width: 220px;
+  height: 55px;
+  padding: 0;
+}
+
+#signUpButton a:hover {
+  text-decoration: none;
+  text-shadow: 3px 3px gray;
+
+}
+
+#pcontact  {
+  text-align:left;
+  float: left;
+  font-size: 18px;
+  margin-left: 200px;
+  margin-top: 50px;
+  width: 800px;
+}
 
 .subHead {
   font-size: 1.4em;
@@ -142,7 +168,7 @@ input[type='submit']:hover {
 
 .row {
 	text-align: center;
-	height: 80vh;
+	height: 90vh;
 	padding-top: 30px;
 	padding-left: 0;
 	padding-right: 0;
@@ -178,6 +204,7 @@ input[type='submit']:hover {
 #navbar .active a {
 	background-color: #F4BE3A ;
 }
+
 
 .navbar-nav a:hover {
 	-webkit-animation: color_change 1s;
