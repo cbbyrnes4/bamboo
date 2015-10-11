@@ -1,0 +1,198 @@
+body {
+  padding-top: 50px;
+  padding-right: 0;
+    font-family: 'Lato', sans-serif;
+    background-color: #72CB51;
+    color:white;
+  /*width: 100%;*/
+}
+
+/*{
+    padding-top: 50px;
+    margin-top: -50px;
+}*/
+
+.subHead {
+  font-size: 1.4em;
+  font-weight: bolder;
+}
+
+.big {
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+
+
+#pillars {
+  font-size: 18px;
+  color: #889AA8;
+  margin: 0 auto;
+  width: 900px;
+}
+
+#pillars div >p {
+  color: #A6AFB7;
+}
+
+.helpTable {
+  display: table;
+  margin-left: 50px;
+}
+
+.helpRow, .helpRow2{
+  display: table-row;
+}
+
+.helpCell1, .helpCell2, .helpCell3 {
+  padding: 5px 30px;
+  display: table-cell;
+  text-align: left;
+}
+
+.checkbox-inline {
+    font-size: 16px;
+}
+
+#help .col-md-4 {
+  border: 0px white;
+  margin: 0;
+  padding:0;
+}
+
+.checkbox {
+  font-size: 16px;
+  margin-left: 50px;
+}
+
+#form {
+  color: #FFFFFF;
+  text-align: left;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.select-menu {
+  text-align: left;
+  font-size: 18px;
+}
+
+#logo {
+  padding: 50px 0;
+  height: 250px;
+  width: 200px;
+  margin: 25px auto;
+}
+
+#logo > img {
+  width: 200px;
+  height: auto;
+}
+
+a:visited {
+  color: #F4BE3A;
+}
+
+.select-menu option {
+  color: #F4BE3A;
+}
+
+.select-menu {
+  background-color: #72CB51;
+}
+
+#loanInfo .loans {
+  width: 50%;
+}
+
+#loanInfo .loans:first-child {
+  float:left;
+  width: 50%;
+}
+
+#loanInfo {
+  width: auto;
+  margin:0 auto;
+}
+
+#loanInfo .loans:last-child {
+  float:right;
+  width:50%;
+}
+
+#radioContainer .radio {
+  width: 50%;
+}
+
+#radioContainer .radio:first-child {
+  float:left;
+}
+
+#radioContainer .radio:last-child {
+  float: right;
+  padding-top: 18px;
+}
+
+
+.row {
+	text-align: center;
+	height: 80vh;
+	padding-top: 30px;
+	padding-left: 0;
+	padding-right: 0;
+	font-size: 2em;
+	width: 100%;
+}
+
+/*.big-font {
+	font-size: 3em;
+}*/
+
+
+.navbar {
+	background-color: white;
+}
+
+.navbar {
+	border-bottom: #F4BE3A 2px solid;
+}
+
+#navbar .active a {
+	background-color: #F4BE3A ;
+}
+
+.navbar-nav a:hover {
+	-webkit-animation: color_change 1s;
+}
+
+.navbar-toggle {
+	background-color: #F4BE3A;
+	border: #F4BE3A 1px solid;
+}
+
+#navbar li a:hover {
+  color:#F4BE3A;
+}
+
+.navbar-toggle:hover {
+	color: #F4BE3A;
+	border: #F4BE3A 1px solid;
+}
+
+@media(max-width:768px) {
+	.col-md-4 {
+		border: none;
+	}
+}
+
+@media(max-width: 992px) {
+	.col-md-4 {
+		border:none;
+	}
+}
+@media(min-width: 1200px){
+
+}
+@webkit-keyframes color_change {
+	from {background-color: #F4BE3A;}
+	to {background-color: #888;}
+}
