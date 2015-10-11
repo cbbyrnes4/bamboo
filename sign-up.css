@@ -160,6 +160,27 @@ a:visited {
 	background-color: #F4BE3A ;
 }
 
+#signUpButton {
+ margin-left: auto;
+ margin-right: auto;
+ margin-top: 25px;
+ text-align: center;
+ vertical-align: middle;
+ color: #FFFFFF;
+ font-weight: bolder;
+ background-color:#F4BE3A;
+ border: 5px solid white;
+ border-radius: 10px;
+ width: 220px;
+ height: 55px;
+ padding: 0;
+}
+
+#signUpButton a:hover {
+ text-decoration: none;
+ text-shadow: 3px 3px gray;
+} 
+
 .navbar-nav a:hover {
 	-webkit-animation: color_change 1s;
 }
